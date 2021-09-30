@@ -1,0 +1,16 @@
+.headerLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+
+    img {
+        width: 150px;
+        height: 150px;
+        border: 1px solid $colorCuatro;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+}

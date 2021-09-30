@@ -1,0 +1,27 @@
+.gridContainer {
+    width: 90%;
+    margin: 10px auto;
+
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+    main {
+        background: $colorUno;
+        grid-area: main;
+    }
+    header {
+        background: $colorCinco;
+        color:$colorCuatro;
+        grid-area: header;
+    }
+    footer {
+        color:$colorCuatro;
+        border-radius: 4px;
+        grid-area: footer;
+        background-image: linear-gradient(to right, $colorUno, $colorTres, $colorCinco, $colorTres);
+    }
+
+}

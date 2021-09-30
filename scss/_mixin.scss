@@ -1,0 +1,10 @@
+
+@mixin linkUlStyle {
+
+    display: flex;
+        justify-content: space-around;
+        margin: 0;
+        background: $colorSeis;
+        padding: 2px;
+    
+}

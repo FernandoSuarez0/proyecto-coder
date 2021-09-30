@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactanos del Refugio de animales para obtener informacion sobre castraciones">
+    <meta name="keywords" content="Refugio, Animales, Castraciones, Perros, Mascotas">
+    <title>Contacto | Refugio De Animales</title>
+
+                            <!--======================== Link Bootsrap==================== -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+            <!--==================================== Hoja De Estilo CSS==========================-->
+
+    <link rel="stylesheet" href="../css/pruebacss.css">
+
+            <!--================================== Link a Googlefonts================================-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+    <!-- navegador bootstrap ( class container en el body y clases en la ul del nav ) -->
+<body>
+                        <!--======================== Grids ==============================-->
+    <div class="gridContainer">
+
+                            <!--====================Header==================== -->
+
+        <header class="header">
+            <div class="headerLogo">
+                <img src="../images/logo.jpg" alt="este es el logo">
+                <h1>Contacto</h1>
+            </div>
+                            <!--===========================Navbar============================ -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                <a class="nav-link" href="adopciones.html">Adopciones</a>
+                                <a class="nav-link" href="antes-y-despues.html">Antes y Despues</a>
+                                <a class="nav-link" href="videos.html">Videos</a>
+                                <a class="nav-link" href="denuncias.html">Denuncias</a>
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </div>
+                            </div>
+                    </nav>
+                </div>
+            </div>    
+        </header>
+                    <!-- ============================Main========================== -->
+        <main class="main">
+            <section class="contactoSeccion1">
+                <h2>Contactanos</h2>
+                <p>Por favor, dejanos tus datos y tu mensaje a continuacion.</p>
+                <p><span> TODOS LOS DATOS SON OBLIGATORIOS</span></p>
+            </section>
+            
+            <section>
+                            <!--===================Formulario Boostrap =========================== -->
+            <div class="container">
+                <h4>Formulario De Contacto</h4>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="datos">Nombre y Apellido:</label>
+                        <input type="text" class="form-control" id="text" placeholder="Ingrese su Nombre y Apellido" name="text">
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="confirmar-email">Confirmar Email:</label>
+                        <input type="email" class="form-control" id="confirmar-email" placeholder="Ingrese email" name="confirmar-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="consulta">Consultas</label>
+                        <textarea class="form-control" id="consulta" placeholder="Ingrese su consulta" name="consulta" rows="5"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>      
+            </section>  
+                        <!--======================Fin Formulario Bootstrap =============================-->
+        </main>
+                                <!--=====================Footer===========================-->
+        <footer class="footer">
+            <p>redes sociales</p>
+            <div class="redesSociales">    
+                <ul>
+                    <li><a href="http://instagram.com" target="_blank">Instragram</a>
+                    </li>
+                    <li><a href="http://facebook.com" target="_blank">Facebook</a>
+                    </li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div> 
+                <!--====================================== Final Grids ===============================-->
+
+                        <!--======================== Javascript Bootstrap ==========================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>   
+</body>
+
+</html>
