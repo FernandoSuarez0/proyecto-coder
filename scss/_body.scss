@@ -25,23 +25,8 @@ body {
         margin: auto;
         display: flex;
 }
-// error 404 
-    .containerError {
-        img {
-            height: 70vh;
-            margin-top: 50px;
-        }
-        h1 {
-            margin-top: 10px;
-        }
-        a {
-            
-            display: flex; 
-            justify-content: center;
-            border: hidden;
-            text-decoration: none;
-
-        }
-        
-    }
+.imgbordes {
+    border: solid 3px black;
+    margin-bottom: 15px;
+}
 }

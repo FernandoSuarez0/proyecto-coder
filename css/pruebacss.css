@@ -39,16 +39,9 @@ body {
   body img {
     margin: auto;
     display: flex; }
-  body .containerError img {
-    height: 70vh;
-    margin-top: 50px; }
-  body .containerError h1 {
-    margin-top: 10px; }
-  body .containerError a {
-    display: flex;
-    justify-content: center;
-    border: hidden;
-    text-decoration: none; }
+  body .imgbordes {
+    border: solid 3px black;
+    margin-bottom: 15px; }
 
 .headerLogo {
   display: flex;
