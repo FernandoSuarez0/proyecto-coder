@@ -46,7 +46,7 @@
     }
 
     .headerLogo {
-        background: url(../images/logo.jpg) no-repeat center;
+        background: url(../images/fondoheader.jpg) no-repeat center;
         background-size: cover;
         height: 280px;
         width: 100%;
@@ -60,4 +60,14 @@
             font-weight: 700;
         }
     }
+    .imgCambios {
+        display: flex;
+        justify-content: center;
+    
+    img {
+        margin: 10px;
+
+    }
+
+}
 }

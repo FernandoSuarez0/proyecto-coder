@@ -59,10 +59,11 @@ body {
     border-radius: 50%; }
 
 .main p {
-  text-align: center; }
+  text-align: center;
+  font-size: 18px; }
 
 .main hr {
-  height: 15px;
+  height: 20px;
   border: solid 1px black;
   background-image: linear-gradient(to right, #797D7F, indigo, #352c8f, indigo);
   border-radius: 10px; }
@@ -74,12 +75,6 @@ body {
 
 .linkLeyMaltrato {
   border: hidden; }
-
-.imgCambios {
-  display: flex;
-  justify-content: center; }
-  .imgCambios img {
-    margin: 10px; }
 
 .footer p {
   text-align: center;
@@ -136,7 +131,7 @@ body {
     display: grid;
     grid-template-areas: "header header header" " main  main main" " main  main main" "  main main main" "footer footer footer"; }
   .headerLogo {
-    background: url(../images/logo.jpg) no-repeat center;
+    background: url(../images/fondoheader.jpg) no-repeat center;
     background-size: cover;
     height: 280px;
     width: 100%; }
@@ -145,4 +140,9 @@ body {
     .headerLogo h1 {
       font-size: 3rem;
       color: black;
-      font-weight: 700; } }
+      font-weight: 700; }
+  .imgCambios {
+    display: flex;
+    justify-content: center; }
+    .imgCambios img {
+      margin: 10px; } }

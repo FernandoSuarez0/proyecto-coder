@@ -2,9 +2,10 @@
 
     p {
         text-align: center;
+        font-size: 18px;
     }
     hr {
-        height: 15px;
+        height: 20px;
         border: solid 1px $colorSeis;
         background-image: linear-gradient(to right, $colorUno, $colorTres, $colorCinco, $colorTres);
         border-radius: 10px;
@@ -23,14 +24,4 @@
 
         border: hidden;
     
-}
-.imgCambios {
-        display: flex;
-        justify-content: center;
-    
-    img {
-        margin: 10px;
-
-    }
-
 }
