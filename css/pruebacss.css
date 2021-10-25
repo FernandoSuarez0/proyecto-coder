@@ -42,8 +42,8 @@ body {
   body .imgbordes {
     border: solid 3px black;
     margin-bottom: 15px;
-    width: 350px;
-    height: 350px; }
+    width: 330px;
+    height: 330px; }
 
 .headerLogo {
   display: flex;
@@ -71,7 +71,7 @@ body {
 .slide {
   margin-top: 10px; }
   .slide img {
-    height: 65vh; }
+    height: 70vh; }
 
 .linkLeyMaltrato {
   border: hidden; }
